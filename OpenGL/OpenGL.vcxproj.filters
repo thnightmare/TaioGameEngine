@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{637a9c9c-fce3-4512-a5a5-098b341429e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderFiles">
+      <UniqueIdentifier>{434b4795-7007-48fc-880c-23780d65be6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BUFFERS">
+      <UniqueIdentifier>{8b7bc090-01e8-408b-8b92-5bae0812a739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BUFFERS\VBO">
+      <UniqueIdentifier>{4d2ddb0c-1eef-45b7-892d-df061df9f450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BUFFERS">
+      <UniqueIdentifier>{a178a7df-2806-4174-b325-da78aa7501e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BUFFERS\VBO">
+      <UniqueIdentifier>{5a0411c6-7622-44b5-a032-edb6be09ac5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderFiles">
+      <UniqueIdentifier>{eaee6b5c-fe55-4117-aa71-dced428349cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BUFFERS\EBO">
+      <UniqueIdentifier>{2a8c0b0b-30df-4dc8-897d-723586fd9ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BUFFERS\EBO">
+      <UniqueIdentifier>{ad36e9f8-fb51-4cd2-8d9c-2fe7727fbae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ObjectFiles">
+      <UniqueIdentifier>{5fff4d2d-fc80-434c-8f5f-534c974d8184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ObjectFiles\VAO">
+      <UniqueIdentifier>{8eb05948-9a1d-49d1-873f-011c61fea23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object files">
+      <UniqueIdentifier>{8d6081a9-2a8f-404e-bf33-647ddec6f3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object files\VAO">
+      <UniqueIdentifier>{95bfba22-4c98-42f1-9a5f-26a43f3a3e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STB">
+      <UniqueIdentifier>{8a2e4238-d632-4527-9002-145cf97d3dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STB">
+      <UniqueIdentifier>{07749489-87f8-415d-9d54-7e9c7a082885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TEXTURES">
+      <UniqueIdentifier>{1898fd59-23e3-4de9-9863-35a6a4484b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TEXTURE%28headerfile%29">
+      <UniqueIdentifier>{4c404dae-2342-448e-99c9-01bc8c06aeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TEXTURE%28cpp file%29">
+      <UniqueIdentifier>{0af521cd-4145-4173-8ab6-a9723d5b9227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{f092a23a-54bc-4563-a873-4894eff82188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{ade3a349-5dda-4840-bc33-6a55e98d911b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderClass.cpp">
+      <Filter>Source Files\ShaderFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Source Files\BUFFERS\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Source Files\BUFFERS\EBO</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files\ObjectFiles\VAO</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files\STB</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\TEXTURE%28cpp file%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="default.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files\BUFFERS\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderClass.h">
+      <Filter>Header Files\ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Header Files\BUFFERS\EBO</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files\Object files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\TEXTURE%28headerfile%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="wood texture.jpg">
+      <Filter>Resource Files\TEXTURES</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
